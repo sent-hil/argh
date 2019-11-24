@@ -13,8 +13,8 @@
     "baseUrl": ".",
     "resolveJsonModule": true,
     "paths": {
-      "~/*": ["./*"]
+      "*": ["./types/*"]
     },
-    "types": ["@nuxt/types"]
-  }
+    "types": ["fabric", "@nuxt/types"]
+  },
 }
