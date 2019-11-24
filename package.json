@@ -1,0 +1,26 @@
+{
+  "name": "argh",
+  "description": "Nuxt.js TypeScript project",
+  "version": "2.10.2",
+  "private": true,
+  "dependencies": {
+    "@nuxt/typescript-runtime": "0.2.4",
+    "@types/fabric": "^3.4.1",
+    "canvas": "^2.6.0",
+    "fabric": "^3.5.1",
+    "node-gyp": "^6.0.1",
+    "nuxt": "2.10.2",
+    "nuxt-property-decorator": "2.5.0",
+    "vue-fabric-wrapper": "^0.1.31"
+  },
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "start": "nuxt-ts start",
+    "generate": "nuxt-ts generate"
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "0.3.4",
+    "@nuxtjs/tailwindcss": "^1.0.0"
+  }
+}
