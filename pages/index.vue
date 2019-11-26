@@ -1,5 +1,5 @@
 <template>
-  <div id="editor-container" class="bg-gray-300 antialiased min-h-screen flex">
+  <div id="editor-container" class="antialiased min-h-screen flex">
     <div class="w-2/3">
       <Editor />
     </div>
