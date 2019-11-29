@@ -4,7 +4,7 @@
       <Editor />
     </div>
     <div class="w-1/3 bg-gray-500">
-      <TopWithHoles />
+      <HolderSelector />
     </div>
   </div>
 </template>
@@ -13,10 +13,10 @@
 import { Component, Vue } from "nuxt-property-decorator";
 
 import Editor from "../components/editor.vue";
-import TopWithHoles from "../components/holders/top-with-holes.vue";
+import HolderSelector from "../components/holder-selector.vue";
 
 @Component({
-  components: { Editor, TopWithHoles }
+  components: { Editor, HolderSelector }
 })
 export default class extends Vue {}
 </script>
