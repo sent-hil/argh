@@ -12,13 +12,13 @@
 <script lang="ts">
 import { Component, Vue } from "nuxt-property-decorator";
 
-import Editor from "../components/Editor.vue";
-import TopWithHoles from "../components/holders/TopWithHoles.vue";
+import Editor from "../components/editor.vue";
+import TopWithHoles from "../components/holders/top-with-holes.vue";
 
 @Component({
   components: { Editor, TopWithHoles }
 })
-export default class extends Vue { }
+export default class extends Vue {}
 </script>
 
 <style scoped></style>
